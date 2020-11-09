@@ -15,7 +15,7 @@
         "no-unused-vars": "warn",
         "no-console": "off",
         "linebreak-style": "off",
-        "class-methods-use-this": "warn",
-        "consistent-return": "warn"
+        "class-methods-use-this": "off",
+        "consistent-return": "off"
     }
 }
