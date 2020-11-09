@@ -12,6 +12,7 @@
     },
     "rules": {
         "no-unused-vars": "warn",
-        "no-console": "off"
+        "no-console": "off",
+        "linebreak-style": "off"
     }
 }
