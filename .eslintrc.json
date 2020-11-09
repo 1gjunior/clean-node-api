@@ -16,6 +16,7 @@
         "no-console": "off",
         "linebreak-style": "off",
         "class-methods-use-this": "off",
-        "consistent-return": "off"
+        "consistent-return": "off",
+        "max-classes-per-file": "off"
     }
 }
