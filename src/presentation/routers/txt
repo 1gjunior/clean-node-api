@@ -1,0 +1,7 @@
+
+test('Should callAuthUseCase with correct params', () => {
+  const sut = new LoginRouter();
+  const httpRequest = {};
+  const httpResponse = sut.route(httpRequest);
+  expect(httpResponse.statusCode).toBe(500);
+});
