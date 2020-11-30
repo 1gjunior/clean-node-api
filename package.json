@@ -31,8 +31,9 @@
     "prettier": "^2.1.2"
   },
   "scripts": {
-    "test": "jest --watch --silent",
-    "test:staged": "jest --passWithNoTests --findRelatedTests --silent",
-    "test:ci": "jest --coverage"
+    "test": "jest --silent --colors --noStackTrace --passWithNoTests",
+    "test:unit": "yarn test --watch",
+    "test:staged": "yarn test --findRelatedTests",
+    "test:ci": "yarn test --coverage"
   }
 }
