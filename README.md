@@ -1,6 +1,6 @@
-# TDD Node Api
+# Rest Node.js API
 
-Api de Login em Node.js utilizando o padrão TDD.
+API Rest em Node.js utilizando TDD, Clean Architecture e Design Patterns.
 
 ## Tecnologias
 
