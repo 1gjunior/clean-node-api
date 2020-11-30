@@ -30,7 +30,7 @@
     "prettier": "^2.1.2"
   },
   "scripts": {
-    "test": "jest --watchAll",
-    "test:staged": "jest --passWithNoTests"
+    "test": "jest --watch --silent",
+    "test:staged": "jest --passWithNoTests --findRelatedTests --silent"
   }
 }
