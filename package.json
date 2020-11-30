@@ -33,6 +33,6 @@
   "scripts": {
     "test": "jest --watch --silent",
     "test:staged": "jest --passWithNoTests --findRelatedTests --silent",
-    "teste:ci": "jest --coverage"
+    "test:ci": "jest --coverage"
   }
 }
