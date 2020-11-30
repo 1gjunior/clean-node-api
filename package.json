@@ -12,7 +12,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn test:ci"
     }
   },
   "author": "Gilberto Junior <junior.siilva182@gmail.com>",
@@ -31,6 +32,7 @@
   },
   "scripts": {
     "test": "jest --watch --silent",
-    "test:staged": "jest --passWithNoTests --findRelatedTests --silent"
+    "test:staged": "jest --passWithNoTests --findRelatedTests --silent",
+    "teste:ci": "jest --coverage"
   }
 }
