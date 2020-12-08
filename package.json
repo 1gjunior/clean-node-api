@@ -19,6 +19,7 @@
   "author": "Gilberto Junior <junior.siilva182@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^26.0.17",
     "eslint": "^7.13.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^6.15.0",
