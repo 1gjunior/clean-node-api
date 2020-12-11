@@ -59,7 +59,6 @@ describe('Auth UseCase', () => {
     const sut = new AuthUseCase();
     const promise = sut.auth('any_email@mail.com', 'any_password');
     expect(promise).rejects.toThrow(
-      // eslint-disable-next-line comma-dangle
       new MissingParamError('loadUserByEmailRepository')
     );
   });
@@ -68,7 +67,6 @@ describe('Auth UseCase', () => {
     const sut = new AuthUseCase({});
     const promise = sut.auth('any_email@mail.com', 'any_password');
     expect(promise).rejects.toThrow(
-      // eslint-disable-next-line comma-dangle
       new InvalidParamError('loadUserByEmailRepository')
     );
   });
@@ -77,7 +75,6 @@ describe('Auth UseCase', () => {
     const { sut } = makeSut();
     const accessToken = await sut.auth(
       'invalid_email@mail.com',
-      // eslint-disable-next-line comma-dangle
       'any_password'
     );
     expect(accessToken).toBeNull();

@@ -19,6 +19,7 @@
         "consistent-return": "off",
         "max-classes-per-file": "off",
         "no-use-before-define":"off",
-        "jest/valid-expect": "off"
+        "jest/valid-expect": "off",
+        "comma-dangle": "off"
     }
 }
